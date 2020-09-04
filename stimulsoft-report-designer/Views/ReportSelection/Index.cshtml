@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Report Selection";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Select A Report to Edit</h1>
+    <form asp-controller="ReportSelection" asp-action="Edit" method="post">
+        <select name="reportname" id="reportname">
+        <option value="TwoSimpleLists">TwoSimpleLists</option>
+        </select>
+        <br/>
+        <input type="submit">
+    </form>
+</div>
